@@ -13498,7 +13498,7 @@
 	All English strings wrapped inside this macro.
 	* doc/bison.texinfo (Bison Parser): Document _.
 	* po/POTFILES.in: Include src/parse-gram.c, since it now
-	includes translateable strings that parse-gram.y doesn't.
+	includes translatable strings that parse-gram.y doesn't.
 
 2005-04-12  Paul Eggert  <eggert@cs.ucla.edu>
 
