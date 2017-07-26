@@ -49,12 +49,12 @@ DEFTIMEVAR (TV_IELR_PHASE3           , "IELR(1) Phase 3")
 DEFTIMEVAR (TV_IELR_PHASE4           , "IELR(1) Phase 4")
 DEFTIMEVAR (TV_CONFLICTS             , "conflicts")
 
-/* Time spent outputing results.  */
-DEFTIMEVAR (TV_REPORT                , "outputing report")
-DEFTIMEVAR (TV_GRAPH                 , "outputing graph")
-DEFTIMEVAR (TV_XML                   , "outputing xml")
+/* Time spent outputting results.  */
+DEFTIMEVAR (TV_REPORT                , "outputting report")
+DEFTIMEVAR (TV_GRAPH                 , "outputting graph")
+DEFTIMEVAR (TV_XML                   , "outputting xml")
 DEFTIMEVAR (TV_ACTIONS               , "parser action tables")
-DEFTIMEVAR (TV_PARSER                , "outputing parser")
+DEFTIMEVAR (TV_PARSER                , "outputting parser")
 DEFTIMEVAR (TV_M4                    , "running m4")
 
 /* Time spent by freeing the memory :).  */
