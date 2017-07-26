@@ -5340,7 +5340,7 @@
 
 	Add "%define assert" to variants.
 	This is used to help the user catch cases where some value gets
-	ovewritten by a new one.  This should not happen, as this will
+	overwritten by a new one.  This should not happen, as this will
 	probably leak.
 
 	Unfortunately this uncovered a bug in the C++ parser itself: the
