@@ -573,9 +573,9 @@ GNU Bison NEWS
   fixed, and introducing tokens with any of %token, %left, %right,
   %precedence, or %nonassoc yields the same result.
 
-  When mixing declarations of tokens with a litteral character (e.g., 'a')
+  When mixing declarations of tokens with a literal character (e.g., 'a')
   or with an identifier (e.g., B) in a precedence declaration, Bison
-  numbered the litteral characters first.  For example
+  numbered the literal characters first.  For example
 
     %right A B 'c' 'd'
 
