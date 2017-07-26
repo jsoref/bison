@@ -732,7 +732,7 @@ m4_if(b4_prefix, [yy], [],
     /// The return value of parse ().
     int yyresult;
 
-    // FIXME: This shoud be completely indented.  It is not yet to
+    // FIXME: This should be completely indented.  It is not yet to
     // avoid gratuitous conflicts when merging into the master branch.
     try
       {
