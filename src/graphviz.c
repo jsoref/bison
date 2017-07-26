@@ -182,7 +182,7 @@ output_red (state const *s, reductions const *reds, FILE *fout)
         default_reduction = &rules[yydefact[s->number] - 1];
 
       /* Build the lookahead tokens lists, one for enabled transitions and one
-         for disabled transistions. */
+         for disabled transitions. */
       if (default_reduction && default_reduction == reds->rules[j])
         defaulted = true;
       if (reds->lookahead_tokens)
