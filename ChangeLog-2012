@@ -1248,7 +1248,7 @@
 	* tests/c++.at (AT_CHECK_VARIANTS): In list.yy, redefine the
 	pretty-printing of lists into something better for parser traces.
 	Update the expected output.
-	Fix correspondance between %type/%token and %printer.
+	Fix correspondence between %type/%token and %printer.
 
 2010-05-04  Akim Demaille  <demaille@gostai.com>
 
