@@ -190,7 +190,7 @@ Use liberally.
 ** TESTSUITEFLAGS
 
 The default is for make check to run all tests sequentially. This can be
-very time consumming when checking repeatedly or on slower setups. This can
+very time consuming when checking repeatedly or on slower setups. This can
 be sped up in two ways:
 
 Using -j, in a make-like fashion, for example:
