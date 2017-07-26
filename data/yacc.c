@@ -1096,7 +1096,7 @@ yytnamerr (char *yyres, const char *yystr)
 /* Copy into *YYMSG, which is of size *YYMSG_ALLOC, an error message
    about the unexpected token YYTOKEN for the state stack whose top is
    YYSSP.]b4_lac_if([[  In order to see if a particular token T is a
-   valid looakhead, invoke yy_lac (YYESA, YYES, YYES_CAPACITY, YYSSP, T).]])[
+   valid lookahead, invoke yy_lac (YYESA, YYES, YYES_CAPACITY, YYSSP, T).]])[
 
    Return 0 if *YYMSG was successfully written.  Return 1 if *YYMSG is
    not large enough to hold the message.  In that case, also set
